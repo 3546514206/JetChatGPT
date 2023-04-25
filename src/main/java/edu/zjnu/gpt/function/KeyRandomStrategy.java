@@ -1,0 +1,18 @@
+package edu.zjnu.gpt.function;
+
+import cn.hutool.core.util.RandomUtil;
+
+import java.util.List;
+
+/**
+ * 描述：
+ *
+ * @since 2023-04-03
+ */
+public class KeyRandomStrategy implements KeyStrategyFunction<List<String>, String> {
+
+    @Override
+    public String apply(List<String> apiKeys) {
+        return RandomUtil.randomEle(apiKeys);
+    }
+}

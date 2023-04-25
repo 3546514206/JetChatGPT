@@ -1,0 +1,74 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="autumn" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="autumn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Bookmarks" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Pull Requests" order="5" />
+      <window_info id="Space Code Reviews" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Services" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="Dependencies" order="11" />
+      <window_info anchor="right" id="eagle-sky" order="0" visible="true" weight="0.33035713" />
+      <window_info anchor="right" id="Space Automation" order="1" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.33035713" />
+      <window_info anchor="right" id="Layout Validation" order="3" />
+      <window_info anchor="right" id="JetChatGPT" order="4" weight="0.33035713" />
+    </layout>
+    <recentWindows>
+      <value>JetChatGPT</value>
+      <value>Maven</value>
+      <value>eagle-sky</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="231" height="190" key="Git.Branch.Popup" timestamp="1682431658646">
+      <screen x="47" y="25" width="2513" height="1415" />
+    </state>
+    <state width="231" height="190" key="Git.Branch.Popup/47.25.2513.1415@47.25.2513.1415" timestamp="1682431658646" />
+    <state x="1401" y="331" key="IDE.errors.dialog" timestamp="1682431672517">
+      <screen x="47" y="25" width="2513" height="1415" />
+    </state>
+    <state x="1401" y="331" key="IDE.errors.dialog/47.25.2513.1415@47.25.2513.1415" timestamp="1682431672517" />
+    <state x="813" y="378" key="SettingsEditor" timestamp="1682430377972">
+      <screen x="50" y="25" width="2510" height="1415" />
+    </state>
+    <state x="813" y="378" key="SettingsEditor/50.25.2510.1415@50.25.2510.1415" timestamp="1682430377972" />
+  </component>
+</project>

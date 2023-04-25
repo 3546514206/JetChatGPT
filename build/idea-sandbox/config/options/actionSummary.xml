@@ -1,0 +1,19 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="EditorBackSpace">
+      <i c="6" l="1682431211946" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1682430307002" />
+    </e>
+    <e n="com.intellij.diagnostic.IdeMessagePanel$4">
+      <i c="1" l="1682431658677" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="6" l="1682431716675" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="1" l="1682431817698" />
+    </e>
+  </component>
+</application>

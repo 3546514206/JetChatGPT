@@ -1,0 +1,7 @@
+<project>
+  <component name="ExternalCompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="autumn" target="7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

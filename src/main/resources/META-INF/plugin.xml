@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>edu.zjnu.JetChatGPT</id>
+    <name>IDEA ChatGPT 插件</name>
+    <vendor email="3546514206@QQ.COM" url="https://github.com/3546514206">浙江师范大学</vendor>
+
+    <description></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- 窗体 (IDEA 界面右侧) -->
+        <toolWindow id="JetChatGPT" secondary="false" anchor="right"
+                    factoryClass="edu.zjnu.JetChatGptFactory"/>
+    </extensions>
+</idea-plugin>

@@ -1,0 +1,102 @@
+<html><head><title>Indexing diagnostics of &#39;autumn&#39;</title><style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+table.two-columns td {
+  width: 50%;
+}
+
+th, td {
+  padding: 3px;
+}
+
+th {
+  background: lightgrey;
+}
+
+td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+        
+.stats-content {
+  margin-left: 20%;
+}
+
+.aggregate-report-content {
+  margin-left: 10%;
+}
+
+.navigation-bar {
+  width: 15%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+}
+
+div.navigation-bar ul {
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+div.navigation-bar ul li a, label {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+label input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+div.navigation-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.minor-data {}
+
+.invisible {
+  display: none;
+}
+
+.jetbrains-logo {
+  width: 50%;
+  bottom: 5%;
+  position: absolute;
+  left: 20%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.linkable-table-row:hover {
+  background: #f2f3ff;
+  outline: none;
+  cursor: pointer;
+}</style><script>document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.getElementsByClassName("linkable-table-row")
+  for (const row of rows) {
+    const href = row.getAttribute("href")
+    row.addEventListener("click", () => {
+      window.open(href, "_blank");
+    });
+  }
+});</script></head><body><div class="aggregate-report-content"><h1>Project name</h1>autumn<div><h1>Indexing history</h1><table class="centered-text"><caption style="caption-side: bottom; text-align: right; font-size: 14px">Hover for details</caption><thead><tr><th colspan="6">Time</th><th colspan="6">Files</th><th rowspan="2">IDE</th><th rowspan="2">Type</th></tr><tr><th>Started</th><th>Total</th><th>Scanning</th><th>Indexing</th><th>Content loading</th><th>Finished</th><th>Providers</th><th>Scanned</th><th>Shared indexes (w/o content loading)</th><th>Scheduled for indexing</th><th>Shared indexes (content loaded)</th><th>Total indexed (shared indexes included)</th></tr></thead><tbody><tr class="linkable-table-row" href="diagnostic-2023-04-25-22-13-52.650.html"><td><strong>On project open</strong><br/>22:13:52 25 4月</td><td>582 ms</td><td>483 ms</td><td>0</td><td>0</td><td>22:13:52 25 4月</td><td>14</td><td>3499</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-22-08-38.631.html"><td><strong>On project open</strong><br/>22:08:38 25 4月</td><td>505 ms</td><td>397 ms</td><td>0</td><td>0</td><td>22:08:38 25 4月</td><td>14</td><td>3499</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-22-07-27.996.html"><td><strong>On project open</strong><br/>22:07:27 25 4月</td><td>483 ms</td><td>386 ms</td><td>0</td><td>0</td><td>22:07:27 25 4月</td><td>14</td><td>3499</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-22-01-32.815.html"><td><strong>On project open</strong><br/>22:01:32 25 4月</td><td>573 ms</td><td>516 ms</td><td>0</td><td>0</td><td>22:01:32 25 4月</td><td>14</td><td>3499</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-22-00-01.826.html"><td><strong>On project open</strong><br/>22:00:01 25 4月</td><td>547 ms</td><td>413 ms</td><td>0</td><td>0</td><td>22:00:01 25 4月</td><td>14</td><td>3499</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-21-57-24.839.html"><td><strong>On project open</strong><br/>21:57:24 25 4月</td><td>780 ms</td><td>569 ms</td><td>0</td><td>0</td><td>21:57:24 25 4月</td><td>14</td><td>3499</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-21-55-49.772.html"><td><strong>On project open</strong><br/>21:55:48 25 4月</td><td>773 ms</td><td>678 ms</td><td>0</td><td>0</td><td>21:55:49 25 4月</td><td>14</td><td>3499</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-21-54-46.687.html"><td><strong>On project open</strong><br/>21:54:46 25 4月</td><td>639 ms</td><td>513 ms</td><td>0</td><td>0</td><td>21:54:46 25 4月</td><td>14</td><td>3499</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-21-50-59.392.html"><td><strong>On project open</strong><br/>21:50:58 25 4月</td><td>826 ms</td><td>566 ms</td><td>55 ms</td><td>2 ms</td><td>21:50:59 25 4月</td><td>14</td><td>3499</td><td>0</td><td>1</td><td>0</td><td>1</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-21-47-19.325.html"><td><strong>changes in: &quot;Library Maven: org.apache.ant:ant:1.9.6&quot;, &quot;Library Maven: org.ow2.asm:asm:6.0_ALPHA&quot;, &quot;Library Maven: cn.hutool:hutool-all:5.7.12&quot;, &quot;Library Maven: org.apache.ant:ant-launcher:1.9.6&quot;, &quot;Library Maven: junit:junit:4.12&quot;, &quot;Library Maven: cglib:cglib:3.2.4&quot;, &quot;Library Maven: org.hamcrest:hamcrest-core:1.3&quot;</strong><br/>21:47:19 25 4月</td><td>7 ms</td><td>5 ms</td><td>0</td><td>0</td><td>21:47:19 25 4月</td><td>7</td><td>3236</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-21-47-19.147.html"><td><strong>On project open</strong><br/>21:47:19 25 4月</td><td>67 ms</td><td>56 ms</td><td>0</td><td>0</td><td>21:47:19 25 4月</td><td>14</td><td>3499</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-21-45-38.230.html"><td><strong>On refresh of 4 files</strong><br/>21:45:38 25 4月</td><td>9 ms</td><td>1 ms</td><td>7 ms</td><td>&lt; 1 ms</td><td>21:45:38 25 4月</td><td>1</td><td>4</td><td>0</td><td>4</td><td>0</td><td>4</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-21-45-38.212.html"><td><strong>changes in: &quot;Module &#39;autumn&#39; (autumn)&quot;, &quot;Library Maven: junit:junit:4.12&quot;, &quot;Library Maven: org.hamcrest:hamcrest-core:1.3&quot;, &quot;Library Maven: cglib:cglib:3.2.4&quot;, &quot;Library Maven: org.ow2.asm:asm:6.0_ALPHA&quot;, &quot;Library Maven: org.apache.ant:ant:1.9.6&quot;, &quot;Library Maven: org.apache.ant:ant-launcher:1.9.6&quot;, &quot;Library Maven: cn.hutool:hutool-all:5.7.12&quot;</strong><br/>21:45:35 25 4月</td><td>2 s 378 ms</td><td>308 ms</td><td>2 s 65 ms</td><td>162 ms</td><td>21:45:38 25 4月</td><td>8</td><td>3277</td><td>0</td><td>3258</td><td>0</td><td>3258</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-04-25-21-45-30.277.html"><td><strong>On project open</strong><br/>21:45:29 25 4月</td><td>1 s 193 ms</td><td>445 ms</td><td>722 ms</td><td>47 ms</td><td>21:45:30 25 4月</td><td>7</td><td>263</td><td>0</td><td>254</td><td>0</td><td>254</td><td>IC-213.7172.25</td><td>Full</td></tr></tbody></table></div></div></body></html>

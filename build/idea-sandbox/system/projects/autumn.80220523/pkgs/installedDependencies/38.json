@@ -1,0 +1,31 @@
+{
+    "cacheVersion": 2,
+    "fileHashCode": 38,
+    "sha256": "d5b9fcce56dd7c57964cff92b5458399a0b42f9efef0e1dcaf70d7e5576b9e6c",
+    "parsingAttempts": 3,
+    "projectName": "autumn",
+    "dependencies": [
+        {
+            "coordinates": {
+                "groupId": "junit",
+                "artifactId": "junit",
+                "version": "4.12"
+            },
+            "scope": "test"
+        },
+        {
+            "coordinates": {
+                "groupId": "cglib",
+                "artifactId": "cglib",
+                "version": "3.2.4"
+            }
+        },
+        {
+            "coordinates": {
+                "groupId": "cn.hutool",
+                "artifactId": "hutool-all",
+                "version": "5.7.12"
+            }
+        }
+    ]
+}

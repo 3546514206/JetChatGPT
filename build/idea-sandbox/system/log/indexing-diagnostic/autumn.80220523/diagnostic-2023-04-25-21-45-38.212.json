@@ -1,0 +1,882 @@
+{
+  "appInfo" : {
+    "build" : "213.7172.25",
+    "buildDate" : "2022-03-15T16:44:47.838Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2023-04-25T13:45:38.212811Z",
+    "os" : "macOS 12.6.4",
+    "runtime" : "JetBrains s.r.o. 11.0.14.1 11.0.14.1+1-b1751.46"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 788529152,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 4,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "autumn",
+    "times" : {
+      "indexingReason" : "changes in: \"Module 'autumn' (autumn)\", \"Library Maven: junit:junit:4.12\", \"Library Maven: org.hamcrest:hamcrest-core:1.3\", \"Library Maven: cglib:cglib:3.2.4\", \"Library Maven: org.ow2.asm:asm:6.0_ALPHA\", \"Library Maven: org.apache.ant:ant:1.9.6\", \"Library Maven: org.apache.ant:ant-launcher:1.9.6\", \"Library Maven: cn.hutool:hutool-all:5.7.12\"",
+      "wasFullIndexing" : false,
+      "totalUpdatingTime" : 2378015875,
+      "indexingTime" : 2065504000,
+      "contentLoadingTime" : 162915981,
+      "scanFilesTime" : 308524000,
+      "pushPropertiesTime" : 9000,
+      "indexExtensionsTime" : 0,
+      "updatingStart" : "2023-04-25T13:45:35.833959Z",
+      "updatingEnd" : "2023-04-25T13:45:38.212Z",
+      "totalSuspendedTime" : 0,
+      "wasInterrupted" : false
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 8,
+      "numberOfScannedFiles" : 3277,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 3258,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 3258
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "CLASS",
+      "partOfTotalProcessingTime" : {
+        "part" : 6742917436,
+        "total" : 8066905382
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 504297306,
+        "total" : 636483851
+      },
+      "totalNumberOfFiles" : 2957,
+      "totalFilesSize" : 9445618,
+      "indexingSpeed" : {
+        "totalBytes" : 9445618,
+        "totalTime" : 6742917436
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Maven: org.apache.ant:ant:1.9.6",
+        "numberOfFiles" : 1146,
+        "totalFilesSize" : 3892578,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 3184451985,
+          "total" : 6742917436
+        }
+      }, {
+        "providerName" : "Library Maven: cn.hutool:hutool-all:5.7.12",
+        "numberOfFiles" : 1203,
+        "totalFilesSize" : 4176278,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1591954158,
+          "total" : 6742917436
+        }
+      }, {
+        "providerName" : "Library Maven: junit:junit:4.12",
+        "numberOfFiles" : 286,
+        "totalFilesSize" : 598058,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1290847239,
+          "total" : 6742917436
+        }
+      }, {
+        "providerName" : "Library Maven: cglib:cglib:3.2.4",
+        "numberOfFiles" : 244,
+        "totalFilesSize" : 548766,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 392598130,
+          "total" : 6742917436
+        }
+      }, {
+        "providerName" : "Library Maven: org.hamcrest:hamcrest-core:1.3",
+        "numberOfFiles" : 45,
+        "totalFilesSize" : 93873,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 165899589,
+          "total" : 6742917436
+        }
+      }, {
+        "providerName" : "Library Maven: org.ow2.asm:asm:6.0_ALPHA",
+        "numberOfFiles" : 28,
+        "totalFilesSize" : 116072,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 98013084,
+          "total" : 6742917436
+        }
+      }, {
+        "providerName" : "Library Maven: org.apache.ant:ant-launcher:1.9.6",
+        "numberOfFiles" : 5,
+        "totalFilesSize" : 19993,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 19153251,
+          "total" : 6742917436
+        }
+      } ]
+    }, {
+      "fileType" : "JAVA",
+      "partOfTotalProcessingTime" : {
+        "part" : 805784482,
+        "total" : 8066905382
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 62963957,
+        "total" : 636483851
+      },
+      "totalNumberOfFiles" : 260,
+      "totalFilesSize" : 688349,
+      "indexingSpeed" : {
+        "totalBytes" : 688349,
+        "totalTime" : 805784482
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Maven: junit:junit:4.12",
+        "numberOfFiles" : 195,
+        "totalFilesSize" : 570168,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 459192944,
+          "total" : 805784482
+        }
+      }, {
+        "providerName" : "Module 'autumn' (autumn)",
+        "numberOfFiles" : 27,
+        "totalFilesSize" : 20985,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 250625622,
+          "total" : 805784482
+        }
+      }, {
+        "providerName" : "Library Maven: org.hamcrest:hamcrest-core:1.3",
+        "numberOfFiles" : 38,
+        "totalFilesSize" : 97196,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 95965916,
+          "total" : 805784482
+        }
+      } ]
+    }, {
+      "fileType" : "Properties",
+      "partOfTotalProcessingTime" : {
+        "part" : 315035876,
+        "total" : 8066905382
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 46588626,
+        "total" : 636483851
+      },
+      "totalNumberOfFiles" : 4,
+      "totalFilesSize" : 18295,
+      "indexingSpeed" : {
+        "totalBytes" : 18295,
+        "totalTime" : 315035876
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Maven: org.apache.ant:ant:1.9.6",
+        "numberOfFiles" : 3,
+        "totalFilesSize" : 18200,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 262803501,
+          "total" : 315035876
+        }
+      }, {
+        "providerName" : "Library Maven: cglib:cglib:3.2.4",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 95,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 52232375,
+          "total" : 315035876
+        }
+      } ]
+    }, {
+      "fileType" : "HTML",
+      "partOfTotalProcessingTime" : {
+        "part" : 83382750,
+        "total" : 8066905382
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 3913792,
+        "total" : 636483851
+      },
+      "totalNumberOfFiles" : 2,
+      "totalFilesSize" : 356,
+      "indexingSpeed" : {
+        "totalBytes" : 356,
+        "totalTime" : 83382750
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Maven: org.hamcrest:hamcrest-core:1.3",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : 356,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 83382750,
+          "total" : 83382750
+        }
+      } ]
+    }, {
+      "fileType" : "XML",
+      "partOfTotalProcessingTime" : {
+        "part" : 54662626,
+        "total" : 8066905382
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 897167,
+        "total" : 636483851
+      },
+      "totalNumberOfFiles" : 5,
+      "totalFilesSize" : 19152,
+      "indexingSpeed" : {
+        "totalBytes" : 19152,
+        "totalTime" : 54662626
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Maven: org.apache.ant:ant:1.9.6",
+        "numberOfFiles" : 4,
+        "totalFilesSize" : 16332,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 50954376,
+          "total" : 54662626
+        }
+      }, {
+        "providerName" : "Library Maven: cglib:cglib:3.2.4",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 2820,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 3708250,
+          "total" : 54662626
+        }
+      } ]
+    }, {
+      "fileType" : "PLAIN_TEXT",
+      "partOfTotalProcessingTime" : {
+        "part" : 51831086,
+        "total" : 8066905382
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 13818543,
+        "total" : 636483851
+      },
+      "totalNumberOfFiles" : 14,
+      "totalFilesSize" : 69088,
+      "indexingSpeed" : {
+        "totalBytes" : 69088,
+        "totalTime" : 51831086
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Maven: org.apache.ant:ant:1.9.6",
+        "numberOfFiles" : 4,
+        "totalFilesSize" : 16867,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 34083167,
+          "total" : 51831086
+        }
+      }, {
+        "providerName" : "Library Maven: junit:junit:4.12",
+        "numberOfFiles" : 3,
+        "totalFilesSize" : 23036,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 8242751,
+          "total" : 51831086
+        }
+      }, {
+        "providerName" : "Library Maven: cglib:cglib:3.2.4",
+        "numberOfFiles" : 3,
+        "totalFilesSize" : 11967,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 4897876,
+          "total" : 51831086
+        }
+      }, {
+        "providerName" : "Library Maven: org.apache.ant:ant-launcher:1.9.6",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : 15594,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 2969542,
+          "total" : 51831086
+        }
+      }, {
+        "providerName" : "Library Maven: cn.hutool:hutool-all:5.7.12",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 115,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 823042,
+          "total" : 51831086
+        }
+      }, {
+        "providerName" : "Library Maven: org.hamcrest:hamcrest-core:1.3",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 1509,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 814708,
+          "total" : 51831086
+        }
+      } ]
+    }, {
+      "fileType" : "Manifest",
+      "partOfTotalProcessingTime" : {
+        "part" : 10423334,
+        "total" : 8066905382
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 3523792,
+        "total" : 636483851
+      },
+      "totalNumberOfFiles" : 10,
+      "totalFilesSize" : 2466,
+      "indexingSpeed" : {
+        "totalBytes" : 2466,
+        "totalTime" : 10423334
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Maven: org.ow2.asm:asm:6.0_ALPHA",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 653,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 3993834,
+          "total" : 10423334
+        }
+      }, {
+        "providerName" : "Library Maven: junit:junit:4.12",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : 380,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 2323874,
+          "total" : 10423334
+        }
+      }, {
+        "providerName" : "Library Maven: org.hamcrest:hamcrest-core:1.3",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : 514,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1572917,
+          "total" : 10423334
+        }
+      }, {
+        "providerName" : "Library Maven: org.apache.ant:ant:1.9.6",
+        "numberOfFiles" : 2,
+        "totalFilesSize" : 504,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1499042,
+          "total" : 10423334
+        }
+      }, {
+        "providerName" : "Library Maven: org.apache.ant:ant-launcher:1.9.6",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 153,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 405708,
+          "total" : 10423334
+        }
+      }, {
+        "providerName" : "Library Maven: cn.hutool:hutool-all:5.7.12",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 131,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 336000,
+          "total" : 10423334
+        }
+      }, {
+        "providerName" : "Library Maven: cglib:cglib:3.2.4",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 131,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 291959,
+          "total" : 10423334
+        }
+      } ]
+    }, {
+      "fileType" : "SPI",
+      "partOfTotalProcessingTime" : {
+        "part" : 2867792,
+        "total" : 8066905382
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 480668,
+        "total" : 636483851
+      },
+      "totalNumberOfFiles" : 6,
+      "totalFilesSize" : 1922,
+      "indexingSpeed" : {
+        "totalBytes" : 1922,
+        "totalTime" : 2867792
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Maven: cn.hutool:hutool-all:5.7.12",
+        "numberOfFiles" : 6,
+        "totalFilesSize" : 1922,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 2867792,
+          "total" : 2867792
+        }
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "Stubs",
+      "partOfTotalIndexingTime" : {
+        "part" : 2904219347,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 2992,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 9502432,
+      "indexingSpeed" : {
+        "totalBytes" : 9502432,
+        "totalTime" : 2904219347
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "bytecodeAnalysis",
+      "partOfTotalIndexingTime" : {
+        "part" : 395529507,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 2956,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 9436413,
+      "indexingSpeed" : {
+        "totalBytes" : 9436413,
+        "totalTime" : 395529507
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 224343966,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 2956,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 9436413,
+      "indexingSpeed" : {
+        "totalBytes" : 9436413,
+        "totalTime" : 224343966
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 145571826,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 294,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 793998,
+      "indexingSpeed" : {
+        "totalBytes" : 793998,
+        "totalTime" : 145571826
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : {
+        "part" : 103660413,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 295,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 794939,
+      "indexingSpeed" : {
+        "totalBytes" : 794939,
+        "totalTime" : 103660413
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "java.null.method.argument",
+      "partOfTotalIndexingTime" : {
+        "part" : 82418709,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 24,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 19011,
+      "indexingSpeed" : {
+        "totalBytes" : 19011,
+        "totalTime" : 82418709
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 74436226,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 2956,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 9436413,
+      "indexingSpeed" : {
+        "totalBytes" : 9436413,
+        "totalTime" : 74436226
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "java.fun.expression",
+      "partOfTotalIndexingTime" : {
+        "part" : 12157957,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 24,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 19011,
+      "indexingSpeed" : {
+        "totalBytes" : 19011,
+        "totalTime" : 12157957
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "java.binary.plus.expression",
+      "partOfTotalIndexingTime" : {
+        "part" : 4251753,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 24,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 19011,
+      "indexingSpeed" : {
+        "totalBytes" : 19011,
+        "totalTime" : 4251753
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "TodoIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 2893828,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 20,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 15355,
+      "indexingSpeed" : {
+        "totalBytes" : 15355,
+        "totalTime" : 2893828
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "DomFileIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 1510165,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 5,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 19152,
+      "indexingSpeed" : {
+        "totalBytes" : 19152,
+        "totalTime" : 1510165
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 669457,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 10,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 2466,
+      "indexingSpeed" : {
+        "totalBytes" : 2466,
+        "totalTime" : 669457
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "xmlProperties",
+      "partOfTotalIndexingTime" : {
+        "part" : 188624,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 5,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 19152,
+      "indexingSpeed" : {
+        "totalBytes" : 19152,
+        "totalTime" : 188624
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "IdeaPluginRegistrationIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 124582,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 5,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 19152,
+      "indexingSpeed" : {
+        "totalBytes" : 19152,
+        "totalTime" : 124582
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "devkit.ExtensionPointClassIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 95209,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 5,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 19152,
+      "indexingSpeed" : {
+        "totalBytes" : 19152,
+        "totalTime" : 95209
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "PluginIdDependenciesIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 93999,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 5,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 19152,
+      "indexingSpeed" : {
+        "totalBytes" : 19152,
+        "totalTime" : 93999
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "PluginIdModuleIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 75249,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 5,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 19152,
+      "indexingSpeed" : {
+        "totalBytes" : 19152,
+        "totalTime" : 75249
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    }, {
+      "indexId" : "devkit.ExtensionPointIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 62084,
+        "total" : 3952302901
+      },
+      "totalNumberOfFiles" : 5,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 19152,
+      "indexingSpeed" : {
+        "totalBytes" : 19152,
+        "totalTime" : 62084
+      },
+      "snapshotInputMappingStats" : {
+        "totalRequests" : 0,
+        "totalMisses" : 0,
+        "totalHits" : 0
+      }
+    } ],
+    "scanningStatistics" : [ {
+      "providerName" : "Library Maven: org.apache.ant:ant:1.9.6",
+      "numberOfScannedFiles" : 1160,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 1159,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "scanningTime" : 113811638,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 33850344,
+      "timeIndexingWithoutContent" : 14117646
+    }, {
+      "providerName" : "Library Maven: cn.hutool:hutool-all:5.7.12",
+      "numberOfScannedFiles" : 1211,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 1211,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "scanningTime" : 108463928,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 39326756,
+      "timeIndexingWithoutContent" : 11767857
+    }, {
+      "providerName" : "Library Maven: junit:junit:4.12",
+      "numberOfScannedFiles" : 490,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 486,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "scanningTime" : 55945743,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 20260642,
+      "timeIndexingWithoutContent" : 5961328
+    }, {
+      "providerName" : "Library Maven: cglib:cglib:3.2.4",
+      "numberOfScannedFiles" : 250,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 250,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "scanningTime" : 34093368,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 8664449,
+      "timeIndexingWithoutContent" : 2857920
+    }, {
+      "providerName" : "Module 'autumn' (autumn)",
+      "numberOfScannedFiles" : 41,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 27,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "scanningTime" : 27111169,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 179749,
+      "timeIndexingWithoutContent" : 685663
+    }, {
+      "providerName" : "Library Maven: org.hamcrest:hamcrest-core:1.3",
+      "numberOfScannedFiles" : 88,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 88,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "scanningTime" : 13912457,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 4822960,
+      "timeIndexingWithoutContent" : 1114830
+    }, {
+      "providerName" : "Library Maven: org.ow2.asm:asm:6.0_ALPHA",
+      "numberOfScannedFiles" : 29,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 29,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "scanningTime" : 9211457,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 3501123,
+      "timeIndexingWithoutContent" : 392371
+    }, {
+      "providerName" : "Library Maven: org.apache.ant:ant-launcher:1.9.6",
+      "numberOfScannedFiles" : 8,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 8,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "scanningTime" : 4066292,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 1904000,
+      "timeIndexingWithoutContent" : 98999
+    } ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "Library Maven: org.apache.ant:ant:1.9.6",
+      "totalNumberOfIndexedFiles" : 1159,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : 894712645,
+      "contentLoadingTime" : 74567791,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ]
+    }, {
+      "providerName" : "Library Maven: junit:junit:4.12",
+      "totalNumberOfIndexedFiles" : 486,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : 446628633,
+      "contentLoadingTime" : 31509811,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ]
+    }, {
+      "providerName" : "Library Maven: cn.hutool:hutool-all:5.7.12",
+      "totalNumberOfIndexedFiles" : 1211,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : 403896974,
+      "contentLoadingTime" : 35903369,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ]
+    }, {
+      "providerName" : "Library Maven: cglib:cglib:3.2.4",
+      "totalNumberOfIndexedFiles" : 250,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : 126923046,
+      "contentLoadingTime" : 11133902,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ]
+    }, {
+      "providerName" : "Library Maven: org.hamcrest:hamcrest-core:1.3",
+      "totalNumberOfIndexedFiles" : 88,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : 97245370,
+      "contentLoadingTime" : 6999792,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ]
+    }, {
+      "providerName" : "Module 'autumn' (autumn)",
+      "totalNumberOfIndexedFiles" : 27,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : 63578408,
+      "contentLoadingTime" : 529511,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ]
+    }, {
+      "providerName" : "Library Maven: org.ow2.asm:asm:6.0_ALPHA",
+      "totalNumberOfIndexedFiles" : 29,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : 25826895,
+      "contentLoadingTime" : 1777230,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ]
+    }, {
+      "providerName" : "Library Maven: org.apache.ant:ant-launcher:1.9.6",
+      "totalNumberOfIndexedFiles" : 8,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingTime" : 5701316,
+      "contentLoadingTime" : 494575,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ]
+    } ]
+  }
+}
